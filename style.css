@@ -51,6 +51,12 @@ h1, h2, h3 { font-family: var(--heading); font-weight: 500; line-height: 1.15; }
 .correction { margin: 0 0 20px; padding: 12px 14px; border-left: 4px solid var(--accent); font-size: 16px; line-height: 1.5; }
 .unreviewed { margin: 28px 0 0; padding-top: 12px; border-top: 1px solid var(--rule); font-size: 14px; line-height: 1.5; color: var(--muted); }
 .article p.body { margin: 0 0 18px; }
+.share { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 28px 0 0; font-size: 15px; line-height: 1.4; }
+.share-label { margin-right: 4px; font-weight: 700; color: var(--muted); }
+.share a, .share button { padding: 5px 12px; border: 1px solid var(--rule); border-radius: 999px; background: none; color: var(--ink); font: inherit; text-decoration: none; cursor: pointer; }
+.share a:hover, .share button:hover { border-color: var(--accent); color: var(--accent); }
+.share [hidden] { display: none; }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .page { max-width: 700px; margin: 0 auto; padding: 36px 0; }
 .page h1 { margin: 0 0 16px; font-size: 38px; }
 footer { margin-top: 32px; padding: 20px 0 40px; border-top: 1px solid var(--rule); font-size: 14px; color: var(--muted); }
